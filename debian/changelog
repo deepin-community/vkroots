@@ -1,5 +1,61 @@
-template-repository (1.0-1) unstable; urgency=medium
+vkroots (0~202404300106git5106d8a-2) unstable; urgency=medium
 
-  * Initial release
+  * Team Upload
+  * Use canonical address for Games Team
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alexandre Detiste <tchet@debian.org>  Sat, 15 Feb 2025 21:40:14 +0100
+
+vkroots (0~202404300106git5106d8a-1) unstable; urgency=medium
+
+  * New upstream version 0~202404300106git5106d8a
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Fri, 30 Aug 2024 22:46:36 -0600
+
+vkroots (0~202403080020git5c217cd-3) unstable; urgency=medium
+
+  * Reverted to package architecture to "any"
+  * Modified build-dep from pkg-config to pkgconf
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Thu, 14 Mar 2024 18:59:25 -0600
+
+vkroots (0~202403080020git5c217cd-2) unstable; urgency=medium
+
+  * Changed package architecture to "all"
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Thu, 14 Mar 2024 18:36:25 -0600
+
+vkroots (0~202403080020git5c217cd-1) unstable; urgency=medium
+
+  * New upstream version 0~202403080020git5c217cd
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Thu, 14 Mar 2024 18:36:25 -0600
+
+vkroots (0~202311190157git2ceb105-1) unstable; urgency=medium
+
+  * New upstream version 0~202311190157git2ceb105
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Tue, 21 Nov 2023 15:37:13 -0600
+
+vkroots (0~202311081819gitd5ef31a-1) unstable; urgency=medium
+
+  * New upstream version 0~202311081819gitd5ef31a
+  * Fixed debian/watch and debian/changelog to reflect Debian version name.
+  * Renamed salsa repo tags to reflect Debian version name.
+  * Remove ${shlibs:Depends} from debian/control for vkroots-headers.
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Fri, 10 Nov 2023 23:37:00 -0600
+
+vkroots (0~202305131704gite554d4c-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+  * debian/gbp.conf: Follow DEP-5 recommendation.
+  * debian/control: Mark binary package as M-A: same.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 26 Sep 2023 15:37:10 -0400
+
+vkroots (0~202301281308git2675710-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1028207)
+
+ -- Safir Secerovic <sapphire@linux.org.ba>  Sat, 28 Jan 2023 12:43:00 -0600

@@ -1,0 +1,4 @@
+version=4
+opts="mode=git, pgpmode=none, date=%Y%m%d%H%M, pretty=0~%cdgit%h" \
+https://github.com/Joshua-Ashton/vkroots \
+HEAD
